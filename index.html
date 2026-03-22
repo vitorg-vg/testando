@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Batalha Paranormal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>⚡ Batalha Paranormal ⚡</h1>
+
+<div id="status">Jogador 1 posicionando entidades...</div>
+
+<div class="boards">
+  <div>
+    <h2>Jogador 1</h2>
+    <div id="board1" class="board"></div>
+  </div>
+
+  <div>
+    <h2>Jogador 2</h2>
+    <div id="board2" class="board"></div>
+  </div>
+</div>
+
+<button id="startBtn">Começar Jogo</button>
+
+<!-- Tela de transição -->
+<div id="transitionScreen" class="hidden">
+  <h2 id="transitionText"></h2>
+  <p id="countdown"></p>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
